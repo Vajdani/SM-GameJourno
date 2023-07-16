@@ -17,8 +17,8 @@ local PerMinute = StatsTickRate / ( 40 * 60 )
 
 local FoodRecoveryThreshold = 0 --5 -- Recover hp when food is above this value
 local FastFoodRecoveryThreshold = 0 --50 -- Recover hp fast when food is above this value
-local HpRecovery = 400 * PerMinute --50 * PerMinute
-local FastHpRecovery = 800 * PerMinute --75 * PerMinute
+local HpRecovery = 300 * PerMinute --50 * PerMinute
+local FastHpRecovery = 500 * PerMinute --75 * PerMinute
 local FoodCostPerHpRecovery = 0.1 --0.2
 local FastFoodCostPerHpRecovery = 0.1 --0.2
 
@@ -572,9 +572,9 @@ function SurvivalPlayer.sv_e_onSpawnCharacter( self )
 			self.sv.saved.stats.food = self.sv.saved.stats.maxfood
 			self.sv.saved.stats.water = self.sv.saved.stats.maxwater
 		else
-			self.sv.saved.stats.hp = 30
-			self.sv.saved.stats.food = 30
-			self.sv.saved.stats.water = 30
+			self.sv.saved.stats.hp = 300 --30
+			self.sv.saved.stats.food = 300 --30
+			self.sv.saved.stats.water = 300 --30
 		end
 		self.sv.saved.isConscious = true
 		self.sv.saved.hasRevivalItem = false

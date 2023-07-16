@@ -1,0 +1,284 @@
+{
+    "characters": [
+        {
+			"uuid": "04761b4a-a83e-4736-b565-120bc776edb2",
+			"renderables":
+			[
+				"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot.rend"
+			],
+			"tumble":
+			{
+				"col": "$SURVIVAL_DATA/Character/Char_Male/char_male_col.obj",
+				"offset": [0.0, 0.0, 1.1]
+			},
+			"ragdoll": "$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_ragdoll.json",
+			"hit":
+			{
+				"stand":
+				{
+					"col": "$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_hit_col.obj",
+					"offset": [0.0, 0.0, 0.9]
+				}
+			},
+			"unit":
+			{
+				"scriptPath": "$CONTENT_DATA/Scripts/units/TapeBotUnit.lua",
+				"scriptClass": "TapebotUnit",
+				"data": {}
+				
+			},
+			"character": 
+			{
+				"scriptPath": "$SURVIVAL_DATA/Scripts/game/characters/TapeBotCharacter.lua",
+				"scriptClass": "TapeBotCharacter",
+				"data": {}
+			},
+			"movement":
+			{
+				"moveSpeed": 4.0,
+				"slowDownSpeed": 2.5,
+				"crouchSpeed": 3.0,
+				"sprintSpeed": 8.0,
+				"headingRotationSpeed": 9.4245,
+				"facingRotationSpeed": 9.4245,
+				"canSwim": false
+			},
+			"capsule":
+			{
+				"radius": 0.3,
+				"height": 1.8
+			},
+			"paint":
+			{
+				"enable": true,
+				"defaultColor": "035cff",
+				"effect": "Paintcharacter - Medium"
+			},
+			"mass": 250.0
+		},
+		{
+			"uuid": "9dbbd2fb-7726-4e8f-8eb4-0dab228a561d",
+			"renderables":
+			[
+				"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot02.rend"
+			],
+			"tumble":
+			{
+				"col": "$SURVIVAL_DATA/Character/Char_Male/char_male_col.obj",
+				"offset": [0.0, 0.0, 1.1]
+			},
+			"ragdoll": "$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_ragdoll.json",
+			"hit":
+			{
+				"stand":
+				{
+					"col": "$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_hit_col.obj",
+					"offset": [0.0, 0.0, 0.9]
+				}
+			},
+			"unit":
+			{
+				"scriptPath": "$CONTENT_DATA/Scripts/units/TapeBotUnit.lua",
+				"scriptClass": "TapebotUnit",
+				"data": {}
+				
+			},
+			"character": 
+			{
+				"scriptPath": "$SURVIVAL_DATA/Scripts/game/characters/TapeBotCharacter.lua",
+				"scriptClass": "TapeBotCharacter",
+				"data": {}
+			},
+			"movement":
+			{
+				"moveSpeed": 4.0,
+				"slowDownSpeed": 2.5,
+				"crouchSpeed": 3.0,
+				"sprintSpeed": 8.0,
+				"headingRotationSpeed": 9.4245,
+				"facingRotationSpeed": 9.4245,
+				"canSwim": false
+			},
+			"capsule":
+			{
+				"radius": 0.3,
+				"height": 1.8
+			},
+			"paint":
+			{
+				"enable": true,
+				"defaultColor": "035cff",
+				"effect": "Paintcharacter - Medium"
+			},
+			"mass": 175.0
+		},
+		{
+			"uuid": "fcb2e8ce-ca94-45e4-a54b-b5acc156170b",
+			"renderables":
+			[
+				"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot03.rend"
+			],
+			"tumble":
+			{
+				"col": "$SURVIVAL_DATA/Character/Char_Male/char_male_col.obj",
+				"offset": [0.0, 0.0, 1.1]
+			},
+			"ragdoll": "$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_ragdoll.json",
+			"hit":
+			{
+				"stand":
+				{
+					"col": "$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_hit_col.obj",
+					"offset": [0.0, 0.0, 0.9]
+				}
+			},
+			"unit":
+			{
+				"scriptPath": "$CONTENT_DATA/Scripts/units/TapeBotUnit.lua",
+				"scriptClass": "TapebotUnit",
+				"data": {}
+				
+			},
+			"character": 
+			{
+				"scriptPath": "$SURVIVAL_DATA/Scripts/game/characters/TapeBotCharacter.lua",
+				"scriptClass": "TapeBotCharacter",
+				"data": {}
+			},
+			"movement":
+			{
+				"moveSpeed": 4.0,
+				"slowDownSpeed": 2.5,
+				"crouchSpeed": 3.0,
+				"sprintSpeed": 8.0,
+				"headingRotationSpeed": 9.4245,
+				"facingRotationSpeed": 9.4245,
+				"canSwim": false
+			},
+			"capsule":
+			{
+				"radius": 0.3,
+				"height": 1.8
+			},
+			"paint":
+			{
+				"enable": true,
+				"defaultColor": "035cff",
+				"effect": "Paintcharacter - Medium"
+			},
+			"mass": 250.0
+		},
+		{
+			"uuid": "68d3b2f3-ed4b-4967-9d22-8ee6f555df63",
+			"renderables":
+			[
+				"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot04.rend"
+			],
+			"tumble":
+			{
+				"col": "$SURVIVAL_DATA/Character/Char_Male/char_male_col.obj",
+				"offset": [0.0, 0.0, 1.1]
+			},
+			"ragdoll": "$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_ragdoll.json",
+			"hit":
+			{
+				"stand":
+				{
+					"col": "$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_hit_col.obj",
+					"offset": [0.0, 0.0, 0.9]
+				}
+			},
+			"unit":
+			{
+				"scriptPath": "$CONTENT_DATA/Scripts/units/TapeBotUnit.lua",
+				"scriptClass": "TapebotUnit",
+				"data": {}
+				
+			},
+			"character": 
+			{
+				"scriptPath": "$SURVIVAL_DATA/Scripts/game/characters/TapeBotCharacter.lua",
+				"scriptClass": "TapeBotCharacter",
+				"data": {}
+			},
+			"movement":
+			{
+				"moveSpeed": 4.0,
+				"slowDownSpeed": 2.5,
+				"crouchSpeed": 3.0,
+				"sprintSpeed": 8.0,
+				"headingRotationSpeed": 9.4245,
+				"facingRotationSpeed": 9.4245,
+				"canSwim": false
+			},
+			"capsule":
+			{
+				"radius": 0.3,
+				"height": 1.8
+			},
+			"paint":
+			{
+				"enable": true,
+				"defaultColor": "035cff",
+				"effect": "Paintcharacter - Medium"
+			},
+			"mass": 250.0
+		},
+		{
+			"uuid": "c3d31c47-0c9b-4b07-9bd4-8f022dc4333e",
+			"renderables":
+			[
+				"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_red.rend"
+			],
+			"tumble":
+			{
+				"col": "$SURVIVAL_DATA/Character/Char_Male/char_male_col.obj",
+				"offset": [0.0, 0.0, 1.1]
+			},
+			"ragdoll": "$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_ragdoll.json",
+			"hit":
+			{
+				"stand":
+				{
+					"col": "$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_hit_col.obj",
+					"offset": [0.0, 0.0, 0.9]
+				}
+			},
+			"unit":
+			{
+				"scriptPath": "$CONTENT_DATA/Scripts/units/TapeBotUnit.lua",
+				"scriptClass": "TapebotUnit",
+				"data": { "explosiveProjectile": true }
+				
+			},
+			"character": 
+			{
+				"scriptPath": "$SURVIVAL_DATA/Scripts/game/characters/TapeBotCharacter.lua",
+				"scriptClass": "TapeBotCharacter",
+				"data": {}
+			},
+			"movement":
+			{
+				"moveSpeed": 4.0,
+				"slowDownSpeed": 2.5,
+				"crouchSpeed": 3.0,
+				"sprintSpeed": 8.0,
+				"headingRotationSpeed": 9.4245,
+				"facingRotationSpeed": 9.4245,
+				"canSwim": false
+			},
+			"capsule":
+			{
+				"radius": 0.3,
+				"height": 1.8
+			},
+			"paint":
+			{
+				"enable": true,
+				"defaultColor": "ec1919",
+				"effect": "Paintcharacter - Medium"
+			},
+			"mass": 250.0
+		}
+    ]
+}
