@@ -1,0 +1,42 @@
+{
+   "partList" : [
+      {
+         "box" : {
+            "x" : 12,
+            "y" : 9,
+            "z" : 10
+         },
+         "chest" : {
+            "slots" : 42069
+         },
+         "name" : "HUMONGOUS Chest",
+         "physicsMaterial" : "Default",
+         "ratings" : {
+            "buoyancy" : 8,
+            "density" : 9,
+            "durability" : 7,
+            "friction" : 4
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$SURVIVAL_DATA/Objects/Mesh/survivalobject/obj_survivalobjects_ruinchest.fbx",
+                  "pose0" : "$SURVIVAL_DATA/Objects/Mesh/survivalobject/obj_survivalobjects_ruinchest_pose0.fbx",
+                  "subMeshMap" : {
+                     "ruinchest_mat" : {
+                        "material" : "PoseAnimDifAsgNor",
+                        "textureList" : [
+                           "$SURVIVAL_DATA/Objects/Textures/survivalobject/obj_survivalobjects_ruinchest_dif.tga",
+                           "$SURVIVAL_DATA/Objects/Textures/survivalobject/obj_survivalobjects_ruinchest_asg.tga",
+                           "$SURVIVAL_DATA/Objects/Textures/survivalobject/obj_survivalobjects_ruinchest_nor.tga"
+                        ]
+                     }
+                  }
+               }
+            ]
+         },
+         "rotationSet" : "Default",
+         "uuid" : "86ad3521-9c8f-4f85-99cd-9ab8cbeb85cf"
+      }
+   ]
+}
