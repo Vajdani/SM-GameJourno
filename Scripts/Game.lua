@@ -32,6 +32,8 @@ SurvivalGame.enableFuelConsumption = true
 SurvivalGame.enableAmmoConsumption = true
 SurvivalGame.enableUpgrade = true
 
+SurvivalGame.defaultInventorySize = 69420
+
 local SyncInterval = 400 -- 400 ticks | 10 seconds
 local IntroFadeDuration = 1.1
 local IntroEndFadeDuration = 1.1
