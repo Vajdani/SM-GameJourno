@@ -2,7 +2,15 @@
    "harvestableSetList" : [
       {
          "categories" : [],
-         "name" : "$CONTENT_DATA/Harvestables/Database/HarvestableSets/example.harvestableset"
+         "name" : "$CONTENT_DATA/Harvestables/Database/HarvestableSets/hvs_trees.harvestableset"
+      },
+      {
+         "categories" : [],
+         "name" : "$CONTENT_DATA/Harvestables/Database/HarvestableSets/hvs_stones.harvestableset"
+      },
+      {
+         "categories" : [],
+         "name" : "$CONTENT_DATA/Harvestables/Database/HarvestableSets/hvs_farmables.harvestableset"
       }
    ]
 }
