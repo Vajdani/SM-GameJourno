@@ -26,7 +26,7 @@ function TapebotUnit.server_onCreate( self )
 		self.saved = {}
 	end
 	if self.saved.stats == nil then
-		self.saved.stats = { hp = 30, maxhp = 30 } --40
+		self.saved.stats = { hp = 4, maxhp = 4 } --40
 	end
 
 	if g_eventManager then
