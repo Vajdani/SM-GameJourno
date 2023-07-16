@@ -1,11 +1,11 @@
 {
    "baseGameContent": "Survival",
    "gameScript" : {
-      "class" : "Game",
+      "class" : "SurvivalGame",
       "file" : "$CONTENT_DATA/Scripts/Game.lua"
    },
    "playerScript" : {
-      "class" : "Player",
+      "class" : "SurvivalPlayer",
       "file" : "$CONTENT_DATA/Scripts/Player.lua"
    }
 }
